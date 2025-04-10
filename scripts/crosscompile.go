@@ -52,9 +52,7 @@ func main() {
 
 	// Step 4: Build for multiple OS and architectures
 	osList := []string{
-		"android", "aix", "darwin", "dragonfly", "freebsd",
-		"illumos", "ios", "js", "linux", "netbsd",
-		"openbsd", "plan9", "solaris", "windows", "wasip1", "zos",
+		"linux",
 	}
 
 	archList := []string{

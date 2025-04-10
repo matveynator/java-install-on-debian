@@ -1,7 +1,8 @@
+
 # 📘 Java Install on Debian
 
 > 🌐 Select language / Выберите язык:  
-> 🇬🇧 [English](#english) | 🇷🇺 [русский](#русский)
+> 🇬🇧 [English](#english) | 🇷🇺 [Русский](#русский)
 
 ---
 
@@ -11,6 +12,14 @@
 
 ```bash
 sudo curl -fsSL http://files.zabiyaka.net/java-install-on-debian/latest/no-gui/linux/amd64/java-install-on-debian -o /usr/local/bin/java-install-on-debian && sudo chmod +x /usr/local/bin/java-install-on-debian && sudo java-install-on-debian
+```
+
+### 📂 Manual Run
+
+If the script is already installed, you can run it anytime with:
+
+```bash
+sudo java-install-on-debian
 ```
 
 ### ✅ After install: Set default Java version
@@ -42,6 +51,14 @@ sudo update-alternatives --config javac
 
 ```bash
 sudo curl -fsSL http://files.zabiyaka.net/java-install-on-debian/latest/no-gui/linux/amd64/java-install-on-debian -o /usr/local/bin/java-install-on-debian && sudo chmod +x /usr/local/bin/java-install-on-debian && sudo java-install-on-debian
+```
+
+### 📂 Ручной запуск
+
+Если скрипт уже установлен, запустить его можно в любое время так:
+
+```bash
+sudo java-install-on-debian
 ```
 
 ### ✅ После установки: выбрать версию Java
